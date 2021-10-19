@@ -1,0 +1,495 @@
+import java.applet.Applet;
+import java.awt.*;
+import java.awt.event.*;
+
+public class Liney extends Applet
+{
+ int x=3, j2, line1x, line1y, line2x, line2y, ex1=0, why1=0, ex2=0, why2=0, ex3=0, why3=0, ex4=0, why4=0, ex5=0, why5=0, ex6=0, why6=0, ex7=0, why7=0, ex8=0, why8=0, ex9=0, why9=0, ex10=0, why10=0, ex11, why11, ex12=0, why12=0, ex13=0, why13=0, ex14=0, why14=0, ex15=0, why15=0, ex16=0, why16=0, ex17=0, why17=0, ex18=0, why18=0, ex19=0, why19=0, ex20=0, why20=0, ex21, why21, ex22=0, why22=0, ex23=0, why23=0, ex24=0, why24=0, ex25=0, why25=0, ex26=0, why26=0, ex27=0, why27=0, ex28=0, why28=0, ex29=0, why29=0, ex30=0, why30=0, rand1, rand2, rand3, rand4, rand5, rand6, rand7, rand8, rand9, rand10, rand11, rand12, rand13, rand14, rand15, rand16, rand17, rand18, rand19, rand20, rand21, rand22, rand23, rand24, rand25, rand26, rand27, rand28, rand29, rand30, rand31, rand32, rand33, rand34, rand35, rand36, rand37, rand38, rand39, rand40, rand41, rand42, rand43, rand44, rand45, rand46, rand47, rand48, rand49, rand50, rand51, rand52, rand53, rand54, rand55, rand56, rand57, rand58, rand59, rand60, rand61, rand62, rand63, rand64, rand65, rand66, rand67, rand68, rand69, rand70, rand71, rand72, rand73, rand74, rand75, rand76, rand77, rand78, rand79, rand80, rand81, rand82, rand83, rand84, rand85, rand86, rand87, rand88, rand89, rand90, rand91;
+ public void init()
+ {}
+ 
+ 
+ public void paint (Graphics g)
+ {
+	 
+ do
+ { 
+	      
+   for (j2=0; j2 < 1000000; j2++) 
+	{	 
+	 	 
+	}
+
+    rand1=(int)(Math.random()*3);
+    rand2=(int)(Math.random()*3);
+    rand3=(int)(Math.random()*3);
+    rand4=(int)(Math.random()*3);
+    rand5=(int)(Math.random()*3);
+    rand6=(int)(Math.random()*3);
+    rand7=(int)(Math.random()*3);
+    rand8=(int)(Math.random()*3);
+	rand9=(int)(Math.random()*3);
+    rand10=(int)(Math.random()*3);
+	rand11=(int)(Math.random()*3);
+    rand12=(int)(Math.random()*3);
+	rand13=(int)(Math.random()*3);
+    rand14=(int)(Math.random()*3);
+    rand15=(int)(Math.random()*3);
+    rand16=(int)(Math.random()*3);
+    rand17=(int)(Math.random()*3);
+    rand18=(int)(Math.random()*3);
+    rand19=(int)(Math.random()*3);
+    rand20=(int)(Math.random()*3);
+	rand21=(int)(Math.random()*3);
+    rand22=(int)(Math.random()*3);
+    rand23=(int)(Math.random()*3);
+    rand24=(int)(Math.random()*3);
+	rand25=(int)(Math.random()*3);
+    rand26=(int)(Math.random()*3);
+	rand27=(int)(Math.random()*3);
+    rand28=(int)(Math.random()*3);
+	rand29=(int)(Math.random()*3);
+    rand30=(int)(Math.random()*3);
+	rand31=(int)(Math.random()*3);
+	rand32=(int)(Math.random()*3);
+    rand33=(int)(Math.random()*3);
+	rand34=(int)(Math.random()*3);
+    rand35=(int)(Math.random()*3);
+	rand36=(int)(Math.random()*3);
+    rand37=(int)(Math.random()*3);
+	rand38=(int)(Math.random()*3);
+    rand39=(int)(Math.random()*3);
+	rand40=(int)(Math.random()*3);
+	rand41=(int)(Math.random()*3);
+    rand42=(int)(Math.random()*3);
+    rand43=(int)(Math.random()*3);
+    rand44=(int)(Math.random()*3);
+    rand45=(int)(Math.random()*3);
+    rand46=(int)(Math.random()*3);
+    rand47=(int)(Math.random()*3);
+    rand48=(int)(Math.random()*3);
+	rand49=(int)(Math.random()*3);
+    rand50=(int)(Math.random()*3);
+	rand51=(int)(Math.random()*3);
+    rand52=(int)(Math.random()*3);
+    rand53=(int)(Math.random()*3);
+    rand54=(int)(Math.random()*3);
+    rand55=(int)(Math.random()*3);
+    rand56=(int)(Math.random()*3);
+    rand57=(int)(Math.random()*3);
+    rand58=(int)(Math.random()*3);
+	rand59=(int)(Math.random()*3);
+    rand60=(int)(Math.random()*3);
+	rand61=(int)(Math.random()*5);
+    rand62=(int)(Math.random()*5);
+    rand63=(int)(Math.random()*5);
+    rand64=(int)(Math.random()*5);
+    rand65=(int)(Math.random()*5);
+    rand66=(int)(Math.random()*5);
+    rand67=(int)(Math.random()*5);
+    rand68=(int)(Math.random()*5);
+	rand69=(int)(Math.random()*5);
+    rand70=(int)(Math.random()*5);
+	rand71=(int)(Math.random()*5);
+    rand72=(int)(Math.random()*5);
+    rand73=(int)(Math.random()*5);
+    rand74=(int)(Math.random()*5);
+    rand75=(int)(Math.random()*5);
+    rand76=(int)(Math.random()*5);
+    rand77=(int)(Math.random()*5);
+    rand78=(int)(Math.random()*5);
+	rand79=(int)(Math.random()*5);
+    rand80=(int)(Math.random()*5);
+	rand81=(int)(Math.random()*5);
+    rand82=(int)(Math.random()*5);
+    rand83=(int)(Math.random()*5);
+    rand84=(int)(Math.random()*5);
+    rand85=(int)(Math.random()*5);
+    rand86=(int)(Math.random()*5);
+    rand87=(int)(Math.random()*5);
+    rand88=(int)(Math.random()*5);
+	rand89=(int)(Math.random()*5);
+    rand90=(int)(Math.random()*5);
+	rand91=(int)(Math.random()*333);
+	
+	rand1=rand1+1;
+	rand2=rand2+1;
+	rand3=rand3-1;
+	rand4=rand4-1;
+	rand5=rand5-1;
+	rand6=rand6-1;
+	rand7=rand7-1;
+	rand8=rand8-1;
+    rand9=rand9-1;
+	rand10=rand10-1;
+	rand11=rand11-1;
+	rand12=rand12-1;
+	rand13=rand13-1;
+	rand14=rand14-1;
+	rand15=rand15-1;
+	rand16=rand16-1;
+	rand17=rand17-1;
+	rand18=rand18-1;
+	rand19=rand19-1;
+	rand20=rand20-1;
+	
+	rand21=rand21-1;
+	rand22=rand22-1;
+	rand23=rand23-1;
+	rand24=rand24-1;
+	rand25=rand25-1;
+	rand26=rand26-1;
+	rand27=rand27-1;
+	rand28=rand28-1;
+    rand29=rand29-1;
+	rand30=rand30-1;
+	rand31=rand31-1;
+	rand32=rand32-1;
+	rand33=rand33-1;
+	rand34=rand34-1;
+	rand35=rand35-1;
+	rand36=rand36-1;
+	rand37=rand37-1;
+	rand38=rand38-1;
+	rand39=rand39-1;
+	rand40=rand40-1;
+	
+	rand41=rand41-1;
+	rand42=rand42-1;
+	rand43=rand43-1;
+	rand44=rand44-1;
+	rand45=rand45-1;
+	rand46=rand46-1;
+	rand47=rand47-1;
+	rand48=rand48-1;
+    rand49=rand49-1;
+	rand50=rand50-1;
+	rand51=rand51-1;
+	rand52=rand52-1;
+	rand53=rand53-1;
+	rand54=rand54-1;
+	rand55=rand55-1;
+	rand56=rand56-1;
+	rand57=rand57-1;
+	rand58=rand58-1;
+    rand59=rand59-1;
+	rand60=rand60-1;
+	
+	ex1=ex1+rand1;
+	why1=why1+rand2;
+	ex2=ex2+rand3;
+	why2=why2+rand4;
+	ex3=ex3+rand5;
+	why3=why3+rand6;
+	ex4=ex4+rand7;
+	why4=why4+rand8;
+	ex5=ex5+rand9;
+	why5=why5+rand10;
+	ex6=ex6+rand11;
+	why6=why6+rand12;
+	ex7=ex7+rand13;
+	why7=why7+rand14;
+	ex8=ex8+rand15;
+	why8=why8+rand16;
+	ex9=ex9+rand17;
+	why9=why9+rand18;
+	ex10=ex10+rand19;
+	why10=why10+rand20;
+	
+	ex11=ex11+rand41;
+	why11=why11+rand42;
+	ex12=ex12+rand43;
+	why12=why12+rand44;
+	ex13=ex13+rand45;
+	why13=why13+rand46;
+	ex14=ex14+rand47;
+	why14=why14+rand48;
+	ex15=ex15+rand49;
+	why15=why15+rand50;
+	ex16=ex16+rand51;
+	why16=why16+rand52;
+	ex17=ex17+rand53;
+	why17=why17+rand54;
+	ex18=ex18+rand55;
+	why18=why18+rand56;
+	ex19=ex19+rand57;
+	why19=why19+rand58;
+	ex20=ex20+rand59;
+	why20=why20+rand60;
+	
+	ex21=ex21+rand21;
+	why21=why21+rand22;
+	ex22=ex22+rand23;
+	why22=why22+rand24;
+	ex23=ex23+rand25;
+	why23=why23+rand26;
+	ex24=ex24+rand27;
+	why24=why24+rand28;
+	ex25=ex25+rand29;
+	why25=why25+rand30;
+	ex26=ex26+rand31;
+	why26=why26+rand32;
+	ex27=ex27+rand33;
+	why27=why27+rand34;
+	ex28=ex28+rand35;
+	why28=why28+rand36;
+	ex29=ex29+rand37;
+	why29=why29+rand38;
+	ex30=ex30+rand39;
+	why30=why30+rand40;
+	
+    g.setColor(new Color(0, 0, 0));
+    g.fillRect(0, 0, 370, 370);
+	g.clipRect(0, 0, 370, 370);
+	
+	g.setColor(new Color(255, 255, 255));
+    g.drawLine(175+ex2+rand61, 175+why2+rand90, 177+ex2+rand60, 177+why2+rand89);
+	g.drawLine(175+ex3+rand62, 175+why3+rand89, 177+ex3+rand61, 177+why3+rand90);
+	g.drawLine(175+ex4+rand63, 175+why4+rand88, 177+ex4+rand62, 177+why4+rand89);
+	g.drawLine(175+ex5+rand64, 175+why5+rand87, 177+ex5+rand63, 177+why5+rand88);
+	g.drawLine(175+ex6+rand65, 175+why6+rand86, 177+ex6+rand64, 177+why6+rand87);
+	g.drawLine(175+ex7+rand66, 175+why7+rand85, 177+ex7+rand65, 177+why7+rand86);
+	g.drawLine(175+ex8+rand67, 175+why8+rand84, 177+ex8+rand66, 177+why8+rand85);
+	g.drawLine(175+ex9+rand68, 175+why9+rand83, 177+ex9+rand67, 177+why9+rand84);
+	g.drawLine(175+ex10+rand69, 175+why10+rand82, 177+ex10+rand68, 177+why10+rand83);
+	g.drawLine(175+ex11+rand70, 175+why11+rand81, 177+ex11+rand69, 177+why11+rand82);
+    g.drawLine(175+ex12+rand71, 175+why12+rand80, 177+ex12+rand70, 177+why12+rand81);
+	g.drawLine(175+ex13+rand72, 175+why13+rand79, 177+ex13+rand71, 177+why13+rand80);
+	g.drawLine(175+ex14+rand73, 175+why14+rand78, 177+ex14+rand72, 177+why14+rand79);
+	g.drawLine(175+ex15+rand74, 175+why15+rand77, 177+ex15+rand73, 177+why15+rand78);
+	g.drawLine(175+ex16+rand75, 175+why16+rand76, 177+ex16+rand74, 177+why16+rand76);
+	g.drawLine(175+ex17+rand76, 175+why17+rand75, 177+ex17+rand75, 177+why17+rand75);
+	g.drawLine(175+ex18+rand77, 175+why18+rand73, 177+ex18+rand76, 177+why18+rand74);
+	g.drawLine(175+ex19+rand78, 175+why19+rand72, 177+ex19+rand77, 177+why19+rand73);
+	g.drawLine(175+ex20+rand79, 175+why20+rand71, 177+ex20+rand78, 177+why20+rand72);
+	g.drawLine(175+ex21+rand80, 175+why21+rand70, 177+ex21+rand79, 177+why21+rand71);
+    g.drawLine(175+ex22+rand81, 175+why22+rand69, 177+ex22+rand80, 177+why22+rand70);
+	g.drawLine(175+ex23+rand82, 175+why23+rand68, 177+ex23+rand81, 177+why23+rand69);
+	g.drawLine(175+ex24+rand83, 175+why24+rand67, 177+ex24+rand82, 177+why24+rand68);
+	g.drawLine(175+ex25+rand84, 175+why25+rand66, 177+ex25+rand83, 177+why25+rand67);
+	g.drawLine(175+ex26+rand85, 175+why26+rand65, 177+ex26+rand84, 177+why26+rand66);
+	g.drawLine(175+ex27+rand86, 175+why27+rand64, 177+ex27+rand85, 177+why27+rand65);
+	g.drawLine(175+ex28+rand87, 175+why28+rand63, 177+ex28+rand86, 177+why28+rand64);
+	g.drawLine(175+ex29+rand83, 175+why29+rand62, 177+ex29+rand87, 177+why29+rand63);
+	g.drawLine(175+ex30+rand89, 175+why30+rand61, 177+ex30+rand88, 177+why30+rand62);
+	
+	if (rand91==1)
+	 {
+	  line1x=175+ex2+rand61;
+	  line1y=175+why2+rand90;
+	  
+	  line2x=175+ex3+rand62;
+	  line2y=175+why3+rand89; 
+	  g.setColor(new Color(255, 0, 0));
+	  g.drawLine(line1x, line1y, line2x, line2y);
+	  line1x=0;
+	  line1y=0;
+	  line2x=0;
+	  line2y=0;
+	 }
+	
+	if (rand91==3)
+	 {
+	  line1x=175+ex4+rand63;
+	  line1y=175+why4+rand88;
+	  
+	  line2x=175+ex5+rand64;
+	  line2y=175+why5+rand87; 
+	  g.setColor(new Color(255, 0, 0));
+	  g.drawLine(line1x, line1y, line2x, line2y);
+	  line1x=0;
+	  line1y=0;
+	  line2x=0;
+	  line2y=0;
+	 }
+	
+	if (rand91==7)
+	 {
+	  line1x=175+ex6+rand65;
+	  line1y=175+why6+rand86;
+	  
+	  line2x=175+ex7+rand66;
+	  line2y=175+why7+rand85; 
+	  g.setColor(new Color(255, 0, 0));
+	  g.drawLine(line1x, line1y, line2x, line2y);
+	  line1x=0;
+	  line1y=0;
+	  line2x=0;
+	  line2y=0;
+	 }
+	
+	if (rand91==8)
+	 {
+	  line1x=175+ex8+rand67;
+	  line1y=175+why8+rand84;
+	  
+	  line2x=175+ex9+rand68;
+	  line2y=175+why9+rand83; 
+	  g.setColor(new Color(255, 0, 0));
+	  g.drawLine(line1x, line1y, line2x, line2y);
+	  line1x=0;
+	  line1y=0;
+	  line2x=0;
+	  line2y=0;
+	 }
+	
+	 if (rand91==12)
+	 {
+	  line1x=175+ex10+rand69;
+	  line1y=175+why10+rand82;
+	  
+	  line2x=175+ex11+rand70;
+	  line2y=175+why11+rand81; 
+	  g.setColor(new Color(255, 0, 0));
+	  g.drawLine(line1x, line1y, line2x, line2y);
+	  line1x=0;
+	  line1y=0;
+	  line2x=0;
+	  line2y=0;
+	 }
+	
+	if (rand91==24)
+	 {
+	  line1x=175+ex12+rand71;
+	  line1y=175+why12+rand80;
+	  
+	  line2x=175+ex13+rand72;
+	  line2y=175+why13+rand79; 
+	  g.setColor(new Color(255, 0, 0));
+	  g.drawLine(line1x, line1y, line2x, line2y);
+	  line1x=0;
+	  line1y=0;
+	  line2x=0;
+	  line2y=0;
+	 }
+	
+	if (rand91==40)
+	 {
+	  line1x=175+ex14+rand73;
+	  line1y=175+why14+rand78;
+	  
+	  line2x=175+ex15+rand74;
+	  line2y=175+why15+rand77; 
+	  g.setColor(new Color(255, 0, 0));
+	  g.drawLine(line1x, line1y, line2x, line2y);
+	  line1x=0;
+	  line1y=0;
+	  line2x=0;
+	  line2y=0;
+	 }
+	
+	if (rand91==100)
+	 {
+	  line1x=175+ex16+rand75;
+	  line1y=175+why16+rand76;
+	  
+	  line2x=175+ex17+rand76;
+	  line2y=175+why17+rand75; 
+	  g.setColor(new Color(255, 0, 0));
+	  g.drawLine(line1x, line1y, line2x, line2y);
+	  line1x=0;
+	  line1y=0;
+	  line2x=0;
+	  line2y=0;
+	 }
+	
+	if (rand91==170)
+	 {
+	  line1x=175+ex18+rand77;
+	  line1y=175+why18+rand74;
+	  
+	  line2x=175+ex19+rand78;
+	  line2y=175+why19+rand73; 
+	  g.setColor(new Color(255, 0, 0));
+	  g.drawLine(line1x, line1y, line2x, line2y);
+	  line1x=0;
+	  line1y=0;
+	  line2x=0;
+	  line2y=0;
+	 }
+	
+	if (rand91==200)
+	 {
+	  line1x=175+ex20+rand79;
+	  line1y=175+why20+rand72;
+	  
+	  line2x=175+ex21+rand80;
+	  line2y=175+why21+rand71; 
+	  g.setColor(new Color(255, 0, 0));
+	  g.drawLine(line1x, line1y, line2x, line2y);
+	  line1x=0;
+	  line1y=0;
+	  line2x=0;
+	  line2y=0;
+	 }
+	
+	if (rand91==220)
+	 {
+	  line1x=175+ex22+rand81;
+	  line1y=175+why22+rand70;
+	  
+	  line2x=175+ex23+rand82;
+	  line2y=175+why23+rand69; 
+	  g.setColor(new Color(255, 0, 0));
+	  g.drawLine(line1x, line1y, line2x, line2y);
+	  line1x=0;
+	  line1y=0;
+	  line2x=0;
+	  line2y=0;
+	 }
+	
+	if (rand91==240)
+	 {
+	  line1x=175+ex24+rand83;
+	  line1y=175+why24+rand68;
+	  
+	  line2x=175+ex25+rand84;
+	  line2y=175+why25+rand67; 
+	  g.setColor(new Color(255, 0, 0));
+	  g.drawLine(line1x, line1y, line2x, line2y);
+	  line1x=0;
+	  line1y=0;
+	  line2x=0;
+	  line2y=0;
+	 }
+	
+	 if (rand91==270)
+	 {
+	  line1x=175+ex26+rand85;
+	  line1y=175+why26+rand66;
+	  
+	  line2x=175+ex27+rand86;
+	  line2y=175+why27+rand65; 
+	  g.setColor(new Color(255, 0, 0));
+	  g.drawLine(line1x, line1y, line2x, line2y);
+	  line1x=0;
+	  line1y=0;
+	  line2x=0;
+	  line2y=0;
+	 }
+	
+	if (rand91==333)
+	 {
+	  line1x=175+ex28+rand87;
+	  line1y=175+why28+rand64;
+	  
+	  line2x=175+ex29+rand88;
+	  line2y=175+why29+rand63; 
+	  g.setColor(new Color(255, 0, 0));
+	  g.drawLine(line1x, line1y, line2x, line2y);
+	  line1x=0;
+	  line1y=0;
+	  line2x=0;
+	  line2y=0;
+	 }
+	
+  }   while(x>2);
+ }
+ 
+  public void update(Graphics g)
+ {
+   paint(g);
+	 
+ }
+
+}
